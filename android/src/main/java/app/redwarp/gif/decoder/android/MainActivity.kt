@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
         drawables.clear()
 
         val imageView1 = findViewById<ImageView>(R.id.imageView1)
-        val drawable = GifDrawable.from(assets.open("full_colour.gif")).getOrThrow()
+        val drawable = GifDrawable.from(assets.open("car_gunna.gif")).getOrThrow()
         drawable.loopCount = LoopCount.Infinite
         drawables.add(drawable)
         imageView1.setImageDrawable(drawable)
